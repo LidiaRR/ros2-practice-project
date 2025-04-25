@@ -1,0 +1,21 @@
+[0.021s] Invoking command in '/home/liror/practice_ws/build/robot_cleaner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/liror/practice_ws/build/robot_cleaner -- -j2 -l2
+[0.126s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.369s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.444s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.457s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.473s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.491s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.575s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.579s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.658s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.745s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.789s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.789s]   ament_target_dependencies() the passed package name 'turtlesim' was not
+[0.789s]   found before
+[0.789s] Call Stack (most recent call first):
+[0.789s]   CMakeLists.txt:20 (ament_target_dependencies)
+[0.789s] 
+[0.789s] [0m
+[0.789s] -- Configuring incomplete, errors occurred!
+[0.795s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.797s] Invoked command in '/home/liror/practice_ws/build/robot_cleaner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/liror/practice_ws/build/robot_cleaner -- -j2 -l2

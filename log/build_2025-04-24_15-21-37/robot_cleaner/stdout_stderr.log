@@ -1,0 +1,13 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/move.dir/src/move.cpp.o[0m
+[01m[K/home/liror/practice_ws/src/robot_cleaner/src/move.cpp:53:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   53 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/liror/practice_ws/src/robot_cleaner/src/move.cpp:[m[K In constructor ‘[01m[KRobotCleaner::[01;32m[KRobotCleaner[m[K()[m[K’:
+[01m[K/home/liror/practice_ws/src/robot_cleaner/src/move.cpp:9:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_[m[K’?
+    9 |                 [01;31m[Kpublisher[m[K = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
+      |                 [01;31m[K^~~~~~~~~[m[K
+      |                 [32m[Kpublisher_[m[K
+gmake[2]: *** [CMakeFiles/move.dir/build.make:76: CMakeFiles/move.dir/src/move.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

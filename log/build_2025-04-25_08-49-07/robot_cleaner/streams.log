@@ -1,0 +1,21 @@
+[0.010s] Invoking command in '/home/liror/practice_ws/build/robot_cleaner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/liror/practice_ws/build/robot_cleaner -- -j2 -l2
+[0.056s] [ 33%] Built target move
+[0.058s] [ 66%] Built target rotate
+[0.081s] [ 83%] [32mBuilding CXX object CMakeFiles/goto.dir/src/gotogoal.cpp.o[0m
+[1.841s] [01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:[m[K In constructor ‘[01m[KTurtleBot::[01;32m[KTurtleBot[m[K()[m[K’:
+[1.842s] [01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:19:87:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+[1.842s]    19 | rtle1/pose", 10, std::bind(&TurtleBot::update_pose, this, [01;31m[K_1[m[K));
+[1.842s]       |                                                           [01;31m[K^~[m[K
+[1.842s]       |                                                           [32m[Kstd::placeholders::_1[m[K
+[1.842s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19[m[K,
+[1.842s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+[1.842s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[1.842s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[1.842s]                  from [01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:3[m[K:
+[1.842s] [01m[K/usr/include/c++/13/functional:294:48:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+[1.842s]   294 |     _GLIBCXX_PLACEHOLDER const _Placeholder<1> [01;36m[K_1[m[K;
+[1.842s]       |                                                [01;36m[K^~[m[K
+[2.634s] gmake[2]: *** [CMakeFiles/goto.dir/build.make:76: CMakeFiles/goto.dir/src/gotogoal.cpp.o] Error 1
+[2.634s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/goto.dir/all] Error 2
+[2.634s] gmake: *** [Makefile:146: all] Error 2
+[2.636s] Invoked command in '/home/liror/practice_ws/build/robot_cleaner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/liror/practice_ws/build/robot_cleaner -- -j2 -l2

@@ -1,0 +1,15 @@
+[0.008s] Invoking command in '/home/liror/practice_ws/build/robot_cleaner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/liror/practice_ws/build/robot_cleaner -- -j2 -l2
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/move.dir/src/move.cpp.o[0m
+[1.749s] [01m[K/home/liror/practice_ws/src/robot_cleaner/src/move.cpp:53:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[1.749s]    53 | }
+[1.749s]       |  [01;31m[K^[m[K
+[1.749s]       |  [32m[K;[m[K
+[1.754s] [01m[K/home/liror/practice_ws/src/robot_cleaner/src/move.cpp:[m[K In constructor ‘[01m[KRobotCleaner::[01;32m[KRobotCleaner[m[K()[m[K’:
+[1.754s] [01m[K/home/liror/practice_ws/src/robot_cleaner/src/move.cpp:9:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_[m[K’?
+[1.754s]     9 |                 [01;31m[Kpublisher[m[K = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
+[1.754s]       |                 [01;31m[K^~~~~~~~~[m[K
+[1.754s]       |                 [32m[Kpublisher_[m[K
+[2.519s] gmake[2]: *** [CMakeFiles/move.dir/build.make:76: CMakeFiles/move.dir/src/move.cpp.o] Error 1
+[2.519s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move.dir/all] Error 2
+[2.519s] gmake: *** [Makefile:146: all] Error 2
+[2.522s] Invoked command in '/home/liror/practice_ws/build/robot_cleaner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/liror/practice_ws/build/robot_cleaner -- -j2 -l2

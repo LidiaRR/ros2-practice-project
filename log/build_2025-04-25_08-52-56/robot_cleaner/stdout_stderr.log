@@ -1,0 +1,27 @@
+[ 33%] Built target move
+[ 66%] Built target rotate
+[ 83%] [32mBuilding CXX object CMakeFiles/goto.dir/src/gotogoal.cpp.o[0m
+[01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:7:26:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K-[m[K’ token
+    7 | using std::placeholders::[01;31m[K-[m[K1;
+      |                          [01;31m[K^[m[K
+[01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:7:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K-[m[K’ token
+    7 | using std::placeholders::[01;31m[K-[m[K1;
+      |                          [01;31m[K^[m[K
+      |                          [32m[K;[m[K
+[01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:7:26:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K-[m[K’ token
+[01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:[m[K In constructor ‘[01m[KTurtleBot::[01;32m[KTurtleBot[m[K()[m[K’:
+[01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:21:87:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   21 | rtle1/pose", 10, std::bind(&TurtleBot::update_pose, this, [01;31m[K_1[m[K));
+      |                                                           [01;31m[K^~[m[K
+      |                                                           [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:3[m[K:
+[01m[K/usr/include/c++/13/functional:294:48:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  294 |     _GLIBCXX_PLACEHOLDER const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                                [01;36m[K^~[m[K
+gmake[2]: *** [CMakeFiles/goto.dir/build.make:76: CMakeFiles/goto.dir/src/gotogoal.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/goto.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

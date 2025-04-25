@@ -1,0 +1,43 @@
+[0.011s] Invoking command in '/home/liror/practice_ws/build/robot_cleaner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/liror/practice_ws/build/robot_cleaner -- -j2 -l2
+[0.035s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.213s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.237s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.244s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.254s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.265s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.320s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.321s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.378s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.431s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.456s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.577s] -- Configuring done (0.5s)
+[0.594s] -- Generating done (0.0s)
+[0.602s] -- Build files have been written to: /home/liror/practice_ws/build/robot_cleaner
+[0.639s] [ 33%] Built target move
+[0.642s] [ 66%] Built target rotate
+[0.668s] [ 83%] [32mBuilding CXX object CMakeFiles/goto.dir/src/gotogoal.cpp.o[0m
+[7.849s] [100%] [32m[1mLinking CXX executable goto[0m
+[8.118s] [100%] Built target goto
+[8.130s] Invoked command in '/home/liror/practice_ws/build/robot_cleaner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/liror/practice_ws/build/robot_cleaner -- -j2 -l2
+[8.139s] Invoking command in '/home/liror/practice_ws/build/robot_cleaner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/liror/practice_ws/build/robot_cleaner
+[8.156s] -- Install configuration: ""
+[8.156s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/lib/robot_cleaner/move
+[8.156s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/lib/robot_cleaner/rotate
+[8.156s] -- Installing: /home/liror/practice_ws/install/robot_cleaner/lib/robot_cleaner/goto
+[8.156s] -- Set non-toolchain portion of runtime path of "/home/liror/practice_ws/install/robot_cleaner/lib/robot_cleaner/goto" to ""
+[8.157s] -- Installing: /home/liror/practice_ws/install/robot_cleaner/share/ament_index/resource_index/package_run_dependencies/robot_cleaner
+[8.157s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/ament_index/resource_index/parent_prefix_path/robot_cleaner
+[8.157s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/environment/ament_prefix_path.sh
+[8.158s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/environment/ament_prefix_path.dsv
+[8.158s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/environment/path.sh
+[8.158s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/environment/path.dsv
+[8.158s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/local_setup.bash
+[8.158s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/local_setup.sh
+[8.159s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/local_setup.zsh
+[8.159s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/local_setup.dsv
+[8.159s] -- Installing: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/package.dsv
+[8.159s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/ament_index/resource_index/packages/robot_cleaner
+[8.160s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/cmake/robot_cleanerConfig.cmake
+[8.160s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/cmake/robot_cleanerConfig-version.cmake
+[8.160s] -- Installing: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/package.xml
+[8.160s] Invoked command in '/home/liror/practice_ws/build/robot_cleaner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/liror/practice_ws/build/robot_cleaner

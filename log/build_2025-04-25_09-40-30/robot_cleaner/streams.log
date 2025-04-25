@@ -1,0 +1,42 @@
+[0.010s] Invoking command in '/home/liror/practice_ws/build/robot_cleaner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/liror/practice_ws/build/robot_cleaner -- -j2 -l2
+[0.056s] [ 50%] Built target rotate
+[0.057s] [ 66%] Built target move
+[0.080s] [ 83%] [32mBuilding CXX object CMakeFiles/goto.dir/src/gotogoal.cpp.o[0m
+[1.782s] [01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:[m[K In constructor ‘[01m[KTurtleBot::[01;32m[KTurtleBot[m[K()[m[K’:
+[1.782s] [01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:17:22:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ksubscriber_callback[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[1.782s]    17 |                 auto [01;35m[Ksubscriber_callback[m[K = [this](const turtlesim::msg::Pose::SharedPtr msg) {
+[1.782s]       |                      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.783s] [01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:[m[K In member function ‘[01m[Kdouble TurtleBot::[01;32m[Klinear_vel[m[K(const turtlesim::msg::Pose&, double)[m[K’:
+[1.783s] [01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:45:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.783s]    45 |       double linear_vel([01;35m[Kconst turtlesim::msg::Pose &goal_pose[m[K, double constant = 1.5)
+[1.783s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[1.783s] 
+[1.783s] [01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:45:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kconstant[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.783s]    45 | r_vel(const turtlesim::msg::Pose &goal_pose, [01;35m[Kdouble constant = 1.5[m[K)
+[1.783s]       |                                              [01;35m[K~~~~~~~^~~~~~~~~~~~~~[m[K
+[1.783s] 
+[6.635s] [100%] [32m[1mLinking CXX executable goto[0m
+[6.896s] [100%] Built target goto
+[6.904s] Invoked command in '/home/liror/practice_ws/build/robot_cleaner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/liror/practice_ws/build/robot_cleaner -- -j2 -l2
+[6.911s] Invoking command in '/home/liror/practice_ws/build/robot_cleaner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/liror/practice_ws/build/robot_cleaner
+[6.918s] -- Install configuration: ""
+[6.918s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/lib/robot_cleaner/move
+[6.919s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/lib/robot_cleaner/rotate
+[6.919s] -- Installing: /home/liror/practice_ws/install/robot_cleaner/lib/robot_cleaner/goto
+[6.922s] -- Set non-toolchain portion of runtime path of "/home/liror/practice_ws/install/robot_cleaner/lib/robot_cleaner/goto" to ""
+[6.922s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/ament_index/resource_index/package_run_dependencies/robot_cleaner
+[6.922s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/ament_index/resource_index/parent_prefix_path/robot_cleaner
+[6.922s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/environment/ament_prefix_path.sh
+[6.922s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/environment/ament_prefix_path.dsv
+[6.923s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/environment/path.sh
+[6.923s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/environment/path.dsv
+[6.923s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/local_setup.bash
+[6.923s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/local_setup.sh
+[6.923s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/local_setup.zsh
+[6.923s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/local_setup.dsv
+[6.923s] -- Installing: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/package.dsv
+[6.923s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/ament_index/resource_index/packages/robot_cleaner
+[6.923s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/cmake/robot_cleanerConfig.cmake
+[6.923s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/cmake/robot_cleanerConfig-version.cmake
+[6.923s] -- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/package.xml
+[6.925s] Invoked command in '/home/liror/practice_ws/build/robot_cleaner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/liror/practice_ws/build/robot_cleaner

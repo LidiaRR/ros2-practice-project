@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.001017] (robot_cleaner) JobQueued: {'identifier': 'robot_cleaner', 'dependencies': OrderedDict()}
+[0.001051] (robot_cleaner) JobStarted: {'identifier': 'robot_cleaner'}
+[0.008561] (robot_cleaner) JobProgress: {'identifier': 'robot_cleaner', 'progress': 'cmake'}
+[0.009403] (robot_cleaner) JobProgress: {'identifier': 'robot_cleaner', 'progress': 'build'}
+[0.009444] (robot_cleaner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/liror/practice_ws/build/robot_cleaner', '--', '-j2', '-l2'], 'cwd': '/home/liror/practice_ws/build/robot_cleaner', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'liror', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/liror', 'OLDPWD': '/home/liror/practice_ws/src/robot_cleaner', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1942', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/liror/practice_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'liror', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'liror', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1910,unix/ubuntu:/tmp/.ICE-unix/1910', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ec7a318c_3c40_4094_8635_0ccbf492c937', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.D5UG52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/liror/practice_ws/install/robot_cleaner:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/liror/practice_ws/build/robot_cleaner', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/liror/practice_ws/install/robot_cleaner:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.033422] (robot_cleaner) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.100084] (-) TimerEvent: {}
+[0.200297] (-) TimerEvent: {}
+[0.201105] (robot_cleaner) StdoutLine: {'line': b'-- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.222799] (robot_cleaner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.229934] (robot_cleaner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.239681] (robot_cleaner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.250393] (robot_cleaner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300511] (robot_cleaner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.300672] (-) TimerEvent: {}
+[0.302627] (robot_cleaner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.360591] (robot_cleaner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400851] (-) TimerEvent: {}
+[0.411532] (robot_cleaner) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.443394] (robot_cleaner) StdoutLine: {'line': b'-- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)\n'}
+[0.501093] (-) TimerEvent: {}
+[0.598445] (robot_cleaner) StdoutLine: {'line': b'-- Configuring done (0.6s)\n'}
+[0.601503] (-) TimerEvent: {}
+[0.636057] (robot_cleaner) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.643717] (robot_cleaner) StdoutLine: {'line': b'-- Build files have been written to: /home/liror/practice_ws/build/robot_cleaner\n'}
+[0.702243] (-) TimerEvent: {}
+[0.709227] (robot_cleaner) StdoutLine: {'line': b'[ 33%] Built target rotate\n'}
+[0.711126] (robot_cleaner) StdoutLine: {'line': b'[ 66%] Built target move\n'}
+[0.727038] (robot_cleaner) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/goto.dir/src/gotogoal.cpp.o\x1b[0m\n'}
+[0.802494] (-) TimerEvent: {}
+[0.903556] (-) TimerEvent: {}
+[1.004952] (-) TimerEvent: {}
+[1.107655] (-) TimerEvent: {}
+[1.207985] (-) TimerEvent: {}
+[1.312425] (-) TimerEvent: {}
+[1.413204] (-) TimerEvent: {}
+[1.515000] (-) TimerEvent: {}
+[1.615639] (-) TimerEvent: {}
+[1.717026] (-) TimerEvent: {}
+[1.818832] (-) TimerEvent: {}
+[1.931657] (-) TimerEvent: {}
+[2.033842] (-) TimerEvent: {}
+[2.139126] (-) TimerEvent: {}
+[2.241975] (-) TimerEvent: {}
+[2.347718] (-) TimerEvent: {}
+[2.449895] (-) TimerEvent: {}
+[2.551820] (-) TimerEvent: {}
+[2.653774] (-) TimerEvent: {}
+[2.754200] (-) TimerEvent: {}
+[2.858209] (-) TimerEvent: {}
+[2.958824] (-) TimerEvent: {}
+[3.060870] (-) TimerEvent: {}
+[3.162891] (-) TimerEvent: {}
+[3.268988] (-) TimerEvent: {}
+[3.370910] (-) TimerEvent: {}
+[3.375443] (robot_cleaner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TurtleBot::\x1b[01;32m\x1b[Kgotogoal\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.375671] (robot_cleaner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:55:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcout\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::cout\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.375741] (robot_cleaner) StderrLine: {'line': b'   55 |                 \x1b[01;31m\x1b[Kcout\x1b[m\x1b[K << "Set your x goal: ";\n'}
+[3.375792] (robot_cleaner) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.375840] (robot_cleaner) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Kstd::cout\x1b[m\x1b[K\n'}
+[3.375888] (robot_cleaner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:2\x1b[m\x1b[K:\n'}
+[3.375963] (robot_cleaner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iostream:63:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::cout\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[3.376015] (robot_cleaner) StderrLine: {'line': b'   63 |   extern ostream \x1b[01;36m\x1b[Kcout\x1b[m\x1b[K;          ///< Linked to standard output\n'}
+[3.376080] (robot_cleaner) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.376174] (robot_cleaner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:56:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcin\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::cin\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.376226] (robot_cleaner) StderrLine: {'line': b'   56 |                 \x1b[01;31m\x1b[Kcin\x1b[m\x1b[K >> goal_pose.x;\n'}
+[3.376272] (robot_cleaner) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.376316] (robot_cleaner) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Kstd::cin\x1b[m\x1b[K\n'}
+[3.376360] (robot_cleaner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/iostream:62:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::cin\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[3.376406] (robot_cleaner) StderrLine: {'line': b'   62 |   extern istream \x1b[01;36m\x1b[Kcin\x1b[m\x1b[K;           ///< Linked to standard input\n'}
+[3.376452] (robot_cleaner) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.472332] (-) TimerEvent: {}
+[3.576551] (-) TimerEvent: {}
+[3.678268] (-) TimerEvent: {}
+[3.784619] (-) TimerEvent: {}
+[3.887603] (-) TimerEvent: {}
+[3.990870] (-) TimerEvent: {}
+[4.097506] (-) TimerEvent: {}
+[4.199843] (-) TimerEvent: {}
+[4.309785] (-) TimerEvent: {}
+[4.413519] (-) TimerEvent: {}
+[4.519831] (-) TimerEvent: {}
+[4.623942] (-) TimerEvent: {}
+[4.726178] (-) TimerEvent: {}
+[4.829415] (-) TimerEvent: {}
+[4.931803] (-) TimerEvent: {}
+[5.034669] (-) TimerEvent: {}
+[5.135441] (-) TimerEvent: {}
+[5.237725] (-) TimerEvent: {}
+[5.340798] (-) TimerEvent: {}
+[5.444200] (-) TimerEvent: {}
+[5.545978] (-) TimerEvent: {}
+[5.557265] (robot_cleaner) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/goto.dir/build.make:76: CMakeFiles/goto.dir/src/gotogoal.cpp.o] Error 1\n'}
+[5.558002] (robot_cleaner) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/goto.dir/all] Error 2\n'}
+[5.558125] (robot_cleaner) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.559651] (robot_cleaner) CommandEnded: {'returncode': 2}
+[5.568895] (robot_cleaner) JobEnded: {'identifier': 'robot_cleaner', 'rc': 2}
+[5.571910] (-) EventReactorShutdown: {}

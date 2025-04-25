@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.000171] (robot_cleaner) JobQueued: {'identifier': 'robot_cleaner', 'dependencies': OrderedDict()}
+[0.000203] (robot_cleaner) JobStarted: {'identifier': 'robot_cleaner'}
+[0.009609] (robot_cleaner) JobProgress: {'identifier': 'robot_cleaner', 'progress': 'cmake'}
+[0.010815] (robot_cleaner) JobProgress: {'identifier': 'robot_cleaner', 'progress': 'build'}
+[0.010858] (robot_cleaner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/liror/practice_ws/build/robot_cleaner', '--', '-j2', '-l2'], 'cwd': '/home/liror/practice_ws/build/robot_cleaner', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'liror', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/liror', 'OLDPWD': '/home/liror/practice_ws/src/robot_cleaner', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1942', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/liror/practice_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'liror', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'liror', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1910,unix/ubuntu:/tmp/.ICE-unix/1910', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ec7a318c_3c40_4094_8635_0ccbf492c937', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.D5UG52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/liror/practice_ws/install/robot_cleaner:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/liror/practice_ws/build/robot_cleaner', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/liror/practice_ws/install/robot_cleaner:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.064824] (robot_cleaner) StdoutLine: {'line': b'[ 33%] Built target move\n'}
+[0.065534] (robot_cleaner) StdoutLine: {'line': b'[ 66%] Built target rotate\n'}
+[0.090062] (robot_cleaner) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/goto.dir/src/gotogoal.cpp.o\x1b[0m\n'}
+[0.099298] (-) TimerEvent: {}
+[0.199915] (-) TimerEvent: {}
+[0.303626] (-) TimerEvent: {}
+[0.405541] (-) TimerEvent: {}
+[0.507297] (-) TimerEvent: {}
+[0.609599] (-) TimerEvent: {}
+[0.710601] (-) TimerEvent: {}
+[0.812987] (-) TimerEvent: {}
+[0.914901] (-) TimerEvent: {}
+[1.018975] (-) TimerEvent: {}
+[1.121455] (-) TimerEvent: {}
+[1.222603] (-) TimerEvent: {}
+[1.325707] (-) TimerEvent: {}
+[1.427410] (-) TimerEvent: {}
+[1.528619] (-) TimerEvent: {}
+[1.634018] (-) TimerEvent: {}
+[1.737535] (-) TimerEvent: {}
+[1.826507] (robot_cleaner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTurtleBot::\x1b[01;32m\x1b[KTurtleBot\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.826703] (robot_cleaner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:15:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Ksubscriber_callback\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.826758] (robot_cleaner) StderrLine: {'line': b'   15 |                 auto \x1b[01;35m\x1b[Ksubscriber_callback\x1b[m\x1b[K = [this](const turtlesim::msg::Pose::SharedPtr msg) {\n'}
+[1.826802] (robot_cleaner) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.839085] (-) TimerEvent: {}
+[1.940675] (-) TimerEvent: {}
+[2.044045] (-) TimerEvent: {}
+[2.149248] (-) TimerEvent: {}
+[2.250473] (-) TimerEvent: {}
+[2.352444] (-) TimerEvent: {}
+[2.456079] (-) TimerEvent: {}
+[2.559138] (-) TimerEvent: {}
+[2.660965] (-) TimerEvent: {}
+[2.763411] (-) TimerEvent: {}
+[2.865725] (-) TimerEvent: {}
+[2.967823] (-) TimerEvent: {}
+[3.069743] (-) TimerEvent: {}
+[3.171546] (-) TimerEvent: {}
+[3.274537] (-) TimerEvent: {}
+[3.376656] (-) TimerEvent: {}
+[3.479259] (-) TimerEvent: {}
+[3.582189] (-) TimerEvent: {}
+[3.682444] (-) TimerEvent: {}
+[3.784403] (-) TimerEvent: {}
+[3.886399] (-) TimerEvent: {}
+[3.988088] (-) TimerEvent: {}
+[4.090504] (-) TimerEvent: {}
+[4.193946] (-) TimerEvent: {}
+[4.297326] (-) TimerEvent: {}
+[4.400514] (-) TimerEvent: {}
+[4.502543] (-) TimerEvent: {}
+[4.605189] (-) TimerEvent: {}
+[4.705466] (-) TimerEvent: {}
+[4.807475] (-) TimerEvent: {}
+[4.909831] (-) TimerEvent: {}
+[5.012181] (-) TimerEvent: {}
+[5.116158] (-) TimerEvent: {}
+[5.217996] (-) TimerEvent: {}
+[5.318956] (-) TimerEvent: {}
+[5.421239] (-) TimerEvent: {}
+[5.524623] (-) TimerEvent: {}
+[5.626578] (-) TimerEvent: {}
+[5.728266] (-) TimerEvent: {}
+[5.831195] (-) TimerEvent: {}
+[5.933375] (-) TimerEvent: {}
+[6.035654] (-) TimerEvent: {}
+[6.136124] (-) TimerEvent: {}
+[6.236378] (-) TimerEvent: {}
+[6.337402] (-) TimerEvent: {}
+[6.439151] (-) TimerEvent: {}
+[6.454423] (robot_cleaner) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable goto\x1b[0m\n'}
+[6.540629] (-) TimerEvent: {}
+[6.640878] (-) TimerEvent: {}
+[6.697659] (robot_cleaner) StdoutLine: {'line': b'[100%] Built target goto\n'}
+[6.706641] (robot_cleaner) CommandEnded: {'returncode': 0}
+[6.707189] (robot_cleaner) JobProgress: {'identifier': 'robot_cleaner', 'progress': 'install'}
+[6.716576] (robot_cleaner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/liror/practice_ws/build/robot_cleaner'], 'cwd': '/home/liror/practice_ws/build/robot_cleaner', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'liror', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/liror', 'OLDPWD': '/home/liror/practice_ws/src/robot_cleaner', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1942', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/liror/practice_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'liror', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'liror', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1910,unix/ubuntu:/tmp/.ICE-unix/1910', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ec7a318c_3c40_4094_8635_0ccbf492c937', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.D5UG52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/liror/practice_ws/install/robot_cleaner:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/liror/practice_ws/build/robot_cleaner', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/liror/practice_ws/install/robot_cleaner:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.722774] (robot_cleaner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.723118] (robot_cleaner) StdoutLine: {'line': b'-- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/lib/robot_cleaner/move\n'}
+[6.723185] (robot_cleaner) StdoutLine: {'line': b'-- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/lib/robot_cleaner/rotate\n'}
+[6.723289] (robot_cleaner) StdoutLine: {'line': b'-- Installing: /home/liror/practice_ws/install/robot_cleaner/lib/robot_cleaner/goto\n'}
+[6.726838] (robot_cleaner) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/liror/practice_ws/install/robot_cleaner/lib/robot_cleaner/goto" to ""\n'}
+[6.726930] (robot_cleaner) StdoutLine: {'line': b'-- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/ament_index/resource_index/package_run_dependencies/robot_cleaner\n'}
+[6.726980] (robot_cleaner) StdoutLine: {'line': b'-- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/ament_index/resource_index/parent_prefix_path/robot_cleaner\n'}
+[6.727026] (robot_cleaner) StdoutLine: {'line': b'-- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/environment/ament_prefix_path.sh\n'}
+[6.727100] (robot_cleaner) StdoutLine: {'line': b'-- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/environment/ament_prefix_path.dsv\n'}
+[6.727227] (robot_cleaner) StdoutLine: {'line': b'-- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/environment/path.sh\n'}
+[6.727277] (robot_cleaner) StdoutLine: {'line': b'-- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/environment/path.dsv\n'}
+[6.727345] (robot_cleaner) StdoutLine: {'line': b'-- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/local_setup.bash\n'}
+[6.727397] (robot_cleaner) StdoutLine: {'line': b'-- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/local_setup.sh\n'}
+[6.727531] (robot_cleaner) StdoutLine: {'line': b'-- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/local_setup.zsh\n'}
+[6.727585] (robot_cleaner) StdoutLine: {'line': b'-- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/local_setup.dsv\n'}
+[6.727630] (robot_cleaner) StdoutLine: {'line': b'-- Installing: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/package.dsv\n'}
+[6.727674] (robot_cleaner) StdoutLine: {'line': b'-- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/ament_index/resource_index/packages/robot_cleaner\n'}
+[6.727717] (robot_cleaner) StdoutLine: {'line': b'-- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/cmake/robot_cleanerConfig.cmake\n'}
+[6.727764] (robot_cleaner) StdoutLine: {'line': b'-- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/cmake/robot_cleanerConfig-version.cmake\n'}
+[6.727807] (robot_cleaner) StdoutLine: {'line': b'-- Up-to-date: /home/liror/practice_ws/install/robot_cleaner/share/robot_cleaner/package.xml\n'}
+[6.728775] (robot_cleaner) CommandEnded: {'returncode': 0}
+[6.740383] (robot_cleaner) JobEnded: {'identifier': 'robot_cleaner', 'rc': 0}
+[6.741570] (-) TimerEvent: {}
+[6.741633] (-) EventReactorShutdown: {}

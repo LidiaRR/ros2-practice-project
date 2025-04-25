@@ -1,0 +1,38 @@
+[0.009s] Invoking command in '/home/liror/practice_ws/build/robot_cleaner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/liror/practice_ws/build/robot_cleaner -- -j2 -l2
+[0.032s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.200s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.222s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.229s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.239s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.249s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.300s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.302s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.360s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.411s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.442s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.598s] -- Configuring done (0.6s)
+[0.635s] -- Generating done (0.0s)
+[0.643s] -- Build files have been written to: /home/liror/practice_ws/build/robot_cleaner
+[0.708s] [ 33%] Built target rotate
+[0.710s] [ 66%] Built target move
+[0.726s] [ 83%] [32mBuilding CXX object CMakeFiles/goto.dir/src/gotogoal.cpp.o[0m
+[3.375s] [01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:[m[K In member function ‘[01m[Kvoid TurtleBot::[01;32m[Kgotogoal[m[K()[m[K’:
+[3.375s] [01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:55:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::cout[m[K’?
+[3.375s]    55 |                 [01;31m[Kcout[m[K << "Set your x goal: ";
+[3.375s]       |                 [01;31m[K^~~~[m[K
+[3.375s]       |                 [32m[Kstd::cout[m[K
+[3.375s] In file included from [01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:2[m[K:
+[3.375s] [01m[K/usr/include/c++/13/iostream:63:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ declared here
+[3.375s]    63 |   extern ostream [01;36m[Kcout[m[K;          ///< Linked to standard output
+[3.375s]       |                  [01;36m[K^~~~[m[K
+[3.375s] [01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:56:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcin[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::cin[m[K’?
+[3.375s]    56 |                 [01;31m[Kcin[m[K >> goal_pose.x;
+[3.375s]       |                 [01;31m[K^~~[m[K
+[3.375s]       |                 [32m[Kstd::cin[m[K
+[3.375s] [01m[K/usr/include/c++/13/iostream:62:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cin[m[K’ declared here
+[3.375s]    62 |   extern istream [01;36m[Kcin[m[K;           ///< Linked to standard input
+[3.375s]       |                  [01;36m[K^~~[m[K
+[5.556s] gmake[2]: *** [CMakeFiles/goto.dir/build.make:76: CMakeFiles/goto.dir/src/gotogoal.cpp.o] Error 1
+[5.557s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/goto.dir/all] Error 2
+[5.557s] gmake: *** [Makefile:146: all] Error 2
+[5.560s] Invoked command in '/home/liror/practice_ws/build/robot_cleaner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/liror/practice_ws/build/robot_cleaner -- -j2 -l2

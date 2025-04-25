@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-078b72bd80527e33b1c4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "robot_cleaner",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "goto::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-goto-bd5ddb0e75297b9ae17e.json",
+					"name" : "goto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move-840bd07ad8c4846805d7.json",
+					"name" : "move",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_cleaner_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_cleaner_uninstall-7971f90743c9e0b0aaec.json",
+					"name" : "robot_cleaner_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rotate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rotate-2e25c3561cdadbb686f7.json",
+					"name" : "rotate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9deaa5501aff8918a2a3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/liror/practice_ws/build/robot_cleaner",
+		"source" : "/home/liror/practice_ws/src/robot_cleaner"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

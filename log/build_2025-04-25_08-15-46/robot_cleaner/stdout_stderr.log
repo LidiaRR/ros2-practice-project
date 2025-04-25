@@ -1,0 +1,36 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/liror/practice_ws/build/robot_cleaner
+[ 33%] Built target rotate
+[ 66%] Built target move
+[ 83%] [32mBuilding CXX object CMakeFiles/goto.dir/src/gotogoal.cpp.o[0m
+[01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:[m[K In member function ‘[01m[Kvoid TurtleBot::[01;32m[Kgotogoal[m[K()[m[K’:
+[01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:55:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::cout[m[K’?
+   55 |                 [01;31m[Kcout[m[K << "Set your x goal: ";
+      |                 [01;31m[K^~~~[m[K
+      |                 [32m[Kstd::cout[m[K
+In file included from [01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:2[m[K:
+[01m[K/usr/include/c++/13/iostream:63:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ declared here
+   63 |   extern ostream [01;36m[Kcout[m[K;          ///< Linked to standard output
+      |                  [01;36m[K^~~~[m[K
+[01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:56:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcin[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::cin[m[K’?
+   56 |                 [01;31m[Kcin[m[K >> goal_pose.x;
+      |                 [01;31m[K^~~[m[K
+      |                 [32m[Kstd::cin[m[K
+[01m[K/usr/include/c++/13/iostream:62:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cin[m[K’ declared here
+   62 |   extern istream [01;36m[Kcin[m[K;           ///< Linked to standard input
+      |                  [01;36m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/goto.dir/build.make:76: CMakeFiles/goto.dir/src/gotogoal.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/goto.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

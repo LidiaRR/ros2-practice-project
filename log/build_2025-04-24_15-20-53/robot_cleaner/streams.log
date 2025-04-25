@@ -1,0 +1,25 @@
+[0.010s] Invoking command in '/home/liror/practice_ws/build/robot_cleaner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/liror/practice_ws/build/robot_cleaner -- -j2 -l2
+[0.031s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.202s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.233s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.242s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.254s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.268s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.327s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.329s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.393s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.409s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.428s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.484s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.584s] -- Configuring done (0.6s)
+[0.592s] -- Generating done (0.0s)
+[0.596s] -- Build files have been written to: /home/liror/practice_ws/build/robot_cleaner
+[0.628s] [ 50%] [32mBuilding CXX object CMakeFiles/move.dir/src/move.cpp.o[0m
+[0.804s] [01m[K/home/liror/practice_ws/src/robot_cleaner/src/move.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msgs/twist.hpp: No such file or directory
+[0.806s]     2 | #include [01;31m[K"geometry_msgs/msgs/twist.hpp"[m[K
+[0.806s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.806s] compilation terminated.
+[0.808s] gmake[2]: *** [CMakeFiles/move.dir/build.make:76: CMakeFiles/move.dir/src/move.cpp.o] Error 1
+[0.808s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move.dir/all] Error 2
+[0.809s] gmake: *** [Makefile:146: all] Error 2
+[0.811s] Invoked command in '/home/liror/practice_ws/build/robot_cleaner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/liror/practice_ws/build/robot_cleaner -- -j2 -l2

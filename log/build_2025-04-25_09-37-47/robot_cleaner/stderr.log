@@ -1,0 +1,13 @@
+[01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:[m[K In constructor ‘[01m[KTurtleBot::[01;32m[KTurtleBot[m[K()[m[K’:
+[01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:17:22:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ksubscriber_callback[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   17 |                 auto [01;35m[Ksubscriber_callback[m[K = [this](const turtlesim::msg::Pose::SharedPtr msg) {
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:[m[K In member function ‘[01m[Kdouble TurtleBot::[01;32m[Klinear_vel[m[K(const turtlesim::msg::Pose&, double)[m[K’:
+[01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:45:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   45 |       double linear_vel([01;35m[Kconst turtlesim::msg::Pose &goal_pose[m[K, double constant = 1.5)
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+
+[01m[K/home/liror/practice_ws/src/robot_cleaner/src/gotogoal.cpp:45:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kconstant[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   45 | r_vel(const turtlesim::msg::Pose &goal_pose, [01;35m[Kdouble constant = 1.5[m[K)
+      |                                              [01;35m[K~~~~~~~^~~~~~~~~~~~~~[m[K
+

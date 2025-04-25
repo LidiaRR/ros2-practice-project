@@ -1,0 +1,12 @@
+/home/liror/practice_ws/build/robot_cleaner/CMakeFiles/uninstall.dir
+/home/liror/practice_ws/build/robot_cleaner/CMakeFiles/robot_cleaner_uninstall.dir
+/home/liror/practice_ws/build/robot_cleaner/CMakeFiles/move.dir
+/home/liror/practice_ws/build/robot_cleaner/CMakeFiles/rotate.dir
+/home/liror/practice_ws/build/robot_cleaner/CMakeFiles/goto.dir
+/home/liror/practice_ws/build/robot_cleaner/CMakeFiles/test.dir
+/home/liror/practice_ws/build/robot_cleaner/CMakeFiles/edit_cache.dir
+/home/liror/practice_ws/build/robot_cleaner/CMakeFiles/rebuild_cache.dir
+/home/liror/practice_ws/build/robot_cleaner/CMakeFiles/list_install_components.dir
+/home/liror/practice_ws/build/robot_cleaner/CMakeFiles/install.dir
+/home/liror/practice_ws/build/robot_cleaner/CMakeFiles/install/local.dir
+/home/liror/practice_ws/build/robot_cleaner/CMakeFiles/install/strip.dir

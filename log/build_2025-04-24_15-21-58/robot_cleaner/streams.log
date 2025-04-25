@@ -1,0 +1,10 @@
+[0.011s] Invoking command in '/home/liror/practice_ws/build/robot_cleaner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/liror/practice_ws/build/robot_cleaner -- -j2 -l2
+[0.064s] [ 50%] [32mBuilding CXX object CMakeFiles/move.dir/src/move.cpp.o[0m
+[1.837s] [01m[K/home/liror/practice_ws/src/robot_cleaner/src/move.cpp:53:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[1.837s]    53 | }
+[1.837s]       |  [01;31m[K^[m[K
+[1.837s]       |  [32m[K;[m[K
+[2.661s] gmake[2]: *** [CMakeFiles/move.dir/build.make:76: CMakeFiles/move.dir/src/move.cpp.o] Error 1
+[2.661s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move.dir/all] Error 2
+[2.661s] gmake: *** [Makefile:146: all] Error 2
+[2.664s] Invoked command in '/home/liror/practice_ws/build/robot_cleaner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/liror/practice_ws/build/robot_cleaner -- -j2 -l2
